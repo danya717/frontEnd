@@ -1,0 +1,58 @@
+body {
+    color: black;
+    background-color: gray;
+}
+
+.text1 {
+    margin-left: 500px;
+    margin-top: 300px;
+}
+
+
+.text2 {
+    margin-left: 480px;
+    margin-top: -15px;
+}
+
+
+.numb1 {
+    margin-top: 10px;
+}
+
+.numb2 {
+
+}
+
+.add {
+        margin-top: 1px;
+
+}
+
+.sub {
+    margin-left: 95px;
+    margin-top: -20px;
+}
+
+.mul {
+    margin-top: 10px;
+}
+
+.div {
+    margin-top: -21px;
+    margin-left: 95px;
+}
+
+.sqr {
+    margin-top: 10px;
+}
+
+.sqr2 {
+    margin-top: -20px;
+    margin-left: 95px;
+}
+
+.main {
+    margin-top: -55px;
+    margin-left: 650px;
+}
+
