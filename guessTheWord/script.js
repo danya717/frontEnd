@@ -1,17 +1,19 @@
-let secretWord = getRandomInt(1, 3);
 
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-    if (secretWord === 1) {
-        let secretWord = programming
-    }
-    if (secretWord === 2) {
-        let secretWord = furniture
-    }
-    if (secretWord === 3) {
-        let secretWord = kitchen
-    }
-}
+
+//let secretWord = getRandomInt(1, 3);
+
+//function getRandomInt(min, max) {
+//    return Math.floor(Math.random() * (max - min + 1)) + min;
+//    if (secretWord === 1) {
+//        let secretWord = programming
+//    }
+//    if (secretWord === 2) {
+//        let secretWord = furniture
+//    }
+//    if (secretWord === 3) {
+//        let secretWord = kitchen
+//    }
+//}
 
 let word = "programming";
 let attempts = 5;
@@ -57,10 +59,12 @@ document.querySelector(".check").onclick = function() {
             document.querySelector(".letter").disabled = true
             document.querySelector(".check").disabled = true
         }
-//        if (letter >= 2) {
-//            alert("please enter only 1 letter");
-//            console.log("hi")
-//        };
+    if (letter.length > 2) {
+        document.querySelector(".letter").value = "";
+        alert("please enter 2 numbers or less");
+        console.log("hi");
+        letter.length = 0
+    };
     };
     console.log(answer)
 };
