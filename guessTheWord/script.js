@@ -1,21 +1,32 @@
-
-
-//let secretWord = getRandomInt(1, 3);
-
 //function getRandomInt(min, max) {
 //    return Math.floor(Math.random() * (max - min + 1)) + min;
-//    if (secretWord === 1) {
-//        let secretWord = programming
-//    }
-//    if (secretWord === 2) {
-//        let secretWord = furniture
-//    }
-//    if (secretWord === 3) {
-//        let secretWord = kitchen
-//    }
 //}
+//
+//let randomNumber = getRandomInt(1, 3);
+//let word = ""
+//
+//if (randomNumber === 1) {
+//    word = "programming"
+//}
+//if (randomNumber === 2) {
+//    word = "furniture"
+//}
+//if (randomNumber === 3) {
+//    word = "kitchen"
+//}
+//alert(word)
 
-let word = "programming";
+let words = ["programming", "furniture", "kitchen", "apple", "orange", "banana", "pineapple", "cherry"]
+function getRandomWord(arr) {
+    let randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+}
+let word = getRandomWord(words)
+alert(word)
+
+document.getElementById("winImg").style.visibility = 'hidden';
+document.querySelector(".win").style.visibility = 'hidden';
+
 let attempts = 5;
 document.querySelector("span").innerHTML = attempts;
 document.querySelector(".word").disabled = true
@@ -33,6 +44,11 @@ let letters = []
 
 document.querySelector(".check").onclick = function() {
     let letter = document.querySelector(".letter").value;
+    if (letter.length > 1) {
+        alert("please enter 1 letter");
+        document.querySelector(".letter").value = "";
+        return;
+    };
     letters.push(letter);
     let answer = "";
     if (word.indexOf(letter) == -1) {
@@ -58,13 +74,12 @@ document.querySelector(".check").onclick = function() {
         if (word == answer) {
             document.querySelector(".letter").disabled = true
             document.querySelector(".check").disabled = true
+            document.getElementById("winImg").style.visibility = 'visible';
+            document.querySelector(".win").style.visibility = 'visible';
+
         }
-    if (letter.length > 2) {
-        document.querySelector(".letter").value = "";
-        alert("please enter 2 numbers or less");
-        console.log("hi");
-        letter.length = 0
-    };
+
+
     };
     console.log(answer)
 };
