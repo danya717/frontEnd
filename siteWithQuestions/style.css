@@ -1,4 +1,4 @@
-.season1 {
+/*.season1 {
     position: relative;
     left: 100px;
 }
@@ -14,7 +14,7 @@
     top: -238px;
     left: 1350px;
 }
-
+*/
 .question1 {
     position: relative;
     left: 10px;
@@ -27,10 +27,139 @@
 
 .question2 {
     position: relative;
+    bottom: -40px;
     left: 10px;
 }
 
 .select2 {
     position: relative;
+    bottom: -40px;
     left: 10px;
+}
+
+.question3 {
+    position: relative;
+    bottom: -80px;
+    left: 10px;
+}
+
+.select3 {
+    position: relative;
+    bottom: -80px;
+    left: 10px;
+}
+
+.question4 {
+    position: relative;
+    bottom: -120px;
+    left: 10px;
+}
+
+.select4 {
+    position: relative;
+    bottom: -120px;
+    left: 10px;
+}
+
+.question5 {
+    position: relative;
+    top: -280px;
+    left: 500px;
+}
+
+.select5 {
+    position: relative;
+    bottom: 280px;
+    left: 500px;
+}
+
+.question6 {
+    position: relative;
+    top: -240px;
+    left: 500px;
+}
+
+.select6 {
+    position: relative;
+    bottom: 240px;
+    left: 500px;
+}
+
+.question7 {
+    position: relative;
+    width: 350px;
+    top: -200px;
+    left: 500px;
+}
+
+.select7 {
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+}
+
+.question8 {
+    position: relative;
+    top: -160px;
+    left: 500px;
+}
+
+.select8 {
+    position: relative;
+    bottom: 160px;
+    left: 500px;
+}
+
+.question9 {
+    position: relative;
+    top: -575px;
+    left: 1000px;
+}
+
+.select9 {
+    position: relative;
+    bottom: 575px;
+    left: 1000px;
+}
+
+.question10 {
+    position: relative;
+    top: -535px;
+    left: 1000px;
+}
+
+.select10 {
+    position: relative;
+    bottom: 535px;
+    left: 1000px;
+}
+
+.question11 {
+    position: relative;
+    top: -495px;
+    left: 1000px;
+}
+
+.select11 {
+    position: relative;
+    bottom: 495px;
+    left: 1000px;
+}
+
+.question12 {
+    position: relative;
+    top: -455px;
+    left: 1000px;
+}
+
+.select12 {
+    position: relative;
+    bottom: 455px;
+    left: 1000px;
+}
+
+.check {
+    position: relative;
+    top: -300px;
+    right: -600px;
 }
