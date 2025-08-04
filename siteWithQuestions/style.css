@@ -1,0 +1,36 @@
+.season1 {
+    position: relative;
+    left: 100px;
+}
+
+.season2 {
+    position: relative;
+    top: -190px;
+    left: 700px;
+}
+
+.season3 {
+    position: relative;
+    top: -238px;
+    left: 1350px;
+}
+
+.question1 {
+    position: relative;
+    left: 10px;
+}
+
+.select1 {
+    position: relative;
+    left: 10px;
+}
+
+.question2 {
+    position: relative;
+    left: 10px;
+}
+
+.select2 {
+    position: relative;
+    left: 10px;
+}
