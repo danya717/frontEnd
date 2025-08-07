@@ -2,6 +2,7 @@ let count = 0
 document.querySelector(".check").disabled = true
 
 document.querySelector(".check").onclick = function() {
+    document.querySelector(".check").disabled = true
     let value1 = document.querySelector(".select1").value;
     if (value1 == "num456") {
         count += 1

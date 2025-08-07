@@ -15,6 +15,11 @@
     left: 1350px;
 }
 */
+
+body {
+    background-color: gold;
+}
+
 .question1 {
     position: relative;
     left: 10px;
@@ -158,8 +163,48 @@
     left: 1000px;
 }
 
+.circle {
+    position: relative;
+    left: 100px;
+    top: -350px;
+    width: 200px;
+    height: 200px;
+}
+
+.triangle {
+    position: relative;
+    left: 200px;
+    top: -350px;
+    width: 200px;
+    height: 200px;
+}
+
+.umbrella {
+    position: relative;
+    left: 500px;
+    top: -445px;
+    width: 200px;
+    height: 200px;
+}
+
+.square {
+    position: relative;
+    left: 600px;
+    top: -447px;
+    width: 200px;
+    height: 200px;
+}
+
 .check {
     position: relative;
-    top: -300px;
-    right: -600px;
+    top: -485px;
+    right: 95px;
+    width: 100px;
+    height: 50px;
+}
+
+.main {
+    position: relative;
+    bottom: -50px;
+    right: -50px;
 }
