@@ -1,5 +1,5 @@
 let count = 0
-document.querySelector(".check").disabled = true
+document.querySelector(".check").disabled = false
 
 document.querySelector(".check").onclick = function() {
     document.querySelector(".check").disabled = true
@@ -64,56 +64,7 @@ document.querySelector(".check").onclick = function() {
 //        alert("12 correct")
     }
 
-    if (count === 1) {
-        alert("You have 1 correct")
-    }
-    if (count === 2) {
-        alert("You have 2 correct")
-    }
-    if (count === 3) {
-        alert("You have 3 correct")
-    }
-    if (count === 4) {
-        alert("You have 4 correct")
-    }
-    if (count === 5) {
-        alert("You have 5 correct")
-    }
-    if (count === 6) {
-        alert("You have 6 correct")
-    }
-    if (count === 7) {
-        alert("You have 7 correct")
-    }
-    if (count === 8) {
-        alert("You have 8 correct")
-    }
-    if (count === 9) {
-        alert("You have 9 correct")
-    }
-    if (count === 10) {
-        alert("You have 10 correct")
-    }
-    if (count === 11) {
-        alert("You have 11 correct")
-    }
-    if (count === 12) {
-        alert("You have 12 correct")
-    }
+    alert("You have " + count + " correct answers")
+    document.querySelector(".check").disabled = false
 }
 
-document.querySelector(".select12").onchange = function () {
-    let value12 = document.querySelector(".select12").value;
-    if (value12 == "green") {
-        document.querySelector(".check").disabled = false
-    }
-    if (value12 == "purple") {
-        document.querySelector(".check").disabled = false
-    }
-    if (value12 == "blue") {
-        document.querySelector(".check").disabled = false
-    }
-    if (value12 == "iDk") {
-        document.querySelector(".check").disabled = false
-    }
-}
