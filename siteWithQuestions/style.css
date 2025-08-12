@@ -214,6 +214,18 @@ body {
     left: 150px;
 }
 
+.resetStats {
+    position: relative;
+    left: -1160px;
+    top: -470px;
+}
+
+.statistic {
+    position: relative;
+    left: -1090px;
+    top: -500px;
+}
+
 .main {
     position: relative;
     bottom: -50px;

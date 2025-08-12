@@ -111,3 +111,9 @@ document.querySelector(".statistic").onclick = function() {
     alert("You have " + count + " correct answers, and " + wrongCount + " incorrect answers")
 }
 
+document.querySelector(".resetStats").onclick = function() {
+    alert("Your stats has been reset")
+    count = 0
+    wrongCount = 0
+}
+
