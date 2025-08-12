@@ -203,6 +203,17 @@ body {
     height: 50px;
 }
 
+.button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: -485px;
+    left: 150px;
+}
+
 .main {
     position: relative;
     bottom: -50px;
