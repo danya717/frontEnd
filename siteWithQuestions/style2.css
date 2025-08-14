@@ -15,6 +15,12 @@ body {
     top: -281px;
 }
 
+.main3 {
+    position: relative;
+    left: 1050px;
+    top: -610px;
+}
+
 .question2o1 {
     position: relative;
 }
@@ -72,3 +78,37 @@ body {
     position: relative;
     bottom: -200px;
 }
+
+.question2o7 {
+    position: relative;
+    bottom: -240px;
+}
+
+.select2o7 {
+    position: relative;
+    bottom: -240px;
+}
+
+.question2o8 {
+    position: relative;
+    bottom: -280px;
+}
+
+.select2o8 {
+    position: relative;
+    bottom: -280px;
+}
+
+.question2o9 {
+    position: relative;
+    bottom: -320px;
+    width: 450px;
+}
+
+.select2o9 {
+    position: relative;
+    bottom: -320px;
+}
+
+
+
