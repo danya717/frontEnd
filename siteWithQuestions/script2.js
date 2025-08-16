@@ -2,6 +2,8 @@ let count = 0
 let wrongCount = 0
 
 document.querySelector(".check").onclick = function() {
+    count = 0
+    wrongCount = 0
     let value1 = document.querySelector(".select2o1").value;
     if (value1 == "red") {
         count += 1

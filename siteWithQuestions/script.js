@@ -3,6 +3,8 @@ let wrongCount = 0
 document.querySelector(".check").disabled = false
 
 document.querySelector(".check").onclick = function() {
+    wrongCount = 0
+    count = 0
     document.querySelector(".check").disabled = true
     let value1 = document.querySelector(".select1").value;
     if (value1 == "num456") {
