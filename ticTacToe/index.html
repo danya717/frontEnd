@@ -6,36 +6,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TicTacToe</h1>
-    <p>current turn: <span>0</span></p>
-    <p>Enter the number of row</p>
-    <input class="row">
-    <br>
-    <p>Enter the number of column</p>
-    <input class="column">
-    <br>
-    <button>Mark the cell</button>
-    <br>
-    <br>
-    <table>
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+
+    <img src="xVSo.png" class="mainImg">
+    <img src="whiteStripe.png" class="stripe">
+    <p class="x">X</p>
+    <p class="o"> 0</p>
+    <div class="main">
+        <h1 class="mainText">TicTacToe</h1>
+        <p class="turn">current turn: <span>0</span></p>
+        <div class="inputs">
+        <p>Enter the number of row</p>
+        <input class="row">
+        <br>
+        <p>Enter the number of column</p>
+        <input class="column">
+         </div>
+        <br>
+        <button class="markTheCell">Mark the cell</button>
+        <br>
+        <br>
+        <div class="box">
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,26 @@
+
+
+body {
+    /*overflow: hidden;*/
+}
+
+.mainImg {
+    position: relative;
+    left: -10px;
+    top: -20px;
+    width: 1550px;
+    height: 750px;
+}
+
+.stripe {
+    position: relative;
+    top: -765px;
+    left: 760px;
+    width: 13px;
+    height: 750px;
+}
+
+
 table {
     border-collapse: collapse;
 }
@@ -6,4 +29,53 @@ td {
     border: 1px solid black;
     width: 20px;
     height: 20px;
+}
+
+.main {
+    position: relative;
+    left: 700px;
+    bottom: 1850px;
+}
+
+.box {
+    position: relative;
+    left: 32px;
+}
+
+.mainText {
+    position: relative;
+    left: -650px;
+    top: -150px;
+}
+
+.turn {
+    position: relative;
+    left: 20px;
+}
+
+.markTheCell {
+    position: relative;
+    left: 25px;
+}
+
+.inputs {
+    position: relative;
+    left: -15px;
+}
+
+.x {
+    position: relative;
+    left: 300px;
+    top: -1300px;
+    font-size: 100px;
+    color: white;
+
+}
+
+.o {
+    position: relative;
+    left: 1150px;
+    top: -1500px;
+    font-size: 100px;
+    color: white;
 }
