@@ -79,3 +79,15 @@ td {
     font-size: 100px;
     color: white;
 }
+
+.xFirst {
+    position: relative;
+    top: -2170px;
+    right: -680px;
+}
+
+.oFirst {
+    position: relative;
+    top: -2170px;
+    right: -705px;
+}

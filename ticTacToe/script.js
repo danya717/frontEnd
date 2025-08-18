@@ -95,7 +95,6 @@ document.querySelector("button").onclick = function() {
     cell.innerHTML = char;
     area[row][column] = char;
     console.log(checkWinner())
-
     turn += 1;
 
 
@@ -114,12 +113,28 @@ document.querySelector("button").onclick = function() {
     else {
         char = "X";
     }
-    document.querySelector("span").innerHTML = char;
-
+//    document.querySelector("span").innerHTML = char;
     if (checkWinner() === "X") {
         alert("X has won")
     }
     if (checkWinner() === "0") {
         alert("0 has won")
     }
+//    if (area[0][0] == "0") {
+//        if(char == "X")
+//        char == "0"
+//        area == "0"
+//        alert("hi")
+//    }
 }
+
+document.querySelector(".xFirst").onclick = function() {
+    char = "X"
+    document.querySelector("span").innerHTML = char;
+}
+
+document.querySelector(".oFirst").onclick = function() {
+    char = "0"
+    document.querySelector("span").innerHTML = char;
+}
+
