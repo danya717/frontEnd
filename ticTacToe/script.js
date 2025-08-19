@@ -1,3 +1,4 @@
+let secTurn = 0;
 let turn = 1;
 let char = "X";
 let area = [
@@ -21,7 +22,6 @@ function checkWinner() {
 
     if (area[0][0] == "X" && area[1][0] == "X" && area[2][0] == "X") {
         return "X";
-
     }
 
     if (area[0][1] == "X" && area[1][1] == "X" && area[2][1] == "X") {
@@ -95,8 +95,21 @@ document.querySelector("button").onclick = function() {
     cell.innerHTML = char;
     area[row][column] = char;
     console.log(checkWinner())
+    document.querySelector(".xFirst").disabled = true;
+    document.querySelector(".oFirst").disabled = true;
     turn += 1;
+    secTurn += 1;
 
+//    console.log(secTurn)
+
+    if (secTurn == 9) {
+        if (checkWinner() !== "X") {
+            if (checkWinner() !== "0") {
+                alert("draw")
+                document.querySelector(".markTheCell").disabled = true
+            }
+        }
+    }
 
     if (char == "X") {
         cell.style.backgroundColor = "gray";
@@ -113,19 +126,13 @@ document.querySelector("button").onclick = function() {
     else {
         char = "X";
     }
-//    document.querySelector("span").innerHTML = char;
+    document.querySelector("span").innerHTML = char;
     if (checkWinner() === "X") {
         alert("X has won")
     }
     if (checkWinner() === "0") {
         alert("0 has won")
     }
-//    if (area[0][0] == "0") {
-//        if(char == "X")
-//        char == "0"
-//        area == "0"
-//        alert("hi")
-//    }
 }
 
 document.querySelector(".xFirst").onclick = function() {
