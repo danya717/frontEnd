@@ -97,9 +97,14 @@ document.querySelector("button").onclick = function() {
     console.log(checkWinner())
     document.querySelector(".xFirst").disabled = true;
     document.querySelector(".oFirst").disabled = true;
+    document.querySelector(".row").value = "";
+    document.querySelector(".column").value = "";
     turn += 1;
     secTurn += 1;
 
+    if (checkWinner()) {
+        document.querySelector(".markTheCell").disabled = true
+    }
 //    console.log(secTurn)
 
     if (secTurn == 9) {
